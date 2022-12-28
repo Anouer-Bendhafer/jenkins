@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Entity
 @DiscriminatorValue(value = "entree")
-public class Entreee extends Met {
+public class Entreeee extends Met {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Double id ;
