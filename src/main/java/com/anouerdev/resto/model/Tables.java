@@ -22,7 +22,7 @@ public class Tables {
     @Column(nullable = false)
     private int nbcouvert ;
 
-    private String type ;
+    private String types ;
 
     private Float supplement ;
 
