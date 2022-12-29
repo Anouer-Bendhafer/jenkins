@@ -26,9 +26,9 @@ public class Ticket {
     @Column(nullable = false)
     private Date dateTime;
 
-    private int nbCouvert;
+    private int nbrCouvert;
 
-    private Float addition;
+    private Float additions;
 
     @ManyToOne
     private Client client;
